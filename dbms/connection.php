@@ -1,0 +1,8 @@
+<?php
+$db=mysqli_connect("localhost","root","","hims");
+if(!$db)
+{
+  die("Connection failed: " . mysqli_connect_error());
+}
+// echo "Connection success";
+ ?>
